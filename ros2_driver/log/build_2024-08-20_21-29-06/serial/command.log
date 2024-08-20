@@ -1,0 +1,4 @@
+Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial -- -j16 -l16
+Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial -- -j16 -l16
+Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial
+Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/serial

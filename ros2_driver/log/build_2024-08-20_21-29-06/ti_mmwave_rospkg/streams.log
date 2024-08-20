@@ -1,0 +1,75 @@
+[0.007s] Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg -- -j16 -l16
+[0.072s] [ 33%] Built target mmwave
+[0.072s] [ 33%] Built target ConfigParameterServer
+[0.081s] [ 58%] Built target mmWaveQuickConfig
+[0.081s] [ 66%] Built target mmWaveCommSrv
+[0.081s] [ 83%] Built target ParameterParser
+[0.087s] [100%] Built target DataHandlerClass
+[0.097s] Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg -- -j16 -l16
+[0.169s] Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg
+[0.213s] -- Install configuration: ""
+[0.213s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.sh
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.dsv
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/IWR6843.py
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Occupancy.py
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Standard.py
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Standard.py
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Occupancy.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/test_launch.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Standard.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Tracking.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Uncompressed.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupancy.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupany.cpython-310.pyc
+[0.214s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Compressed.cpython-310.pyc
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Tracking.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Tracking.py
+[0.215s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1843_Standard.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6432_Standard.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1443_Standard.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1642_Standard.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz_launch.py
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz.rviz
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config/global_params.yaml
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Tracking.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1443_Standard.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6432_Standard_Uncompressed.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1843_Standard.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Occupancy.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1642_Standard.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Standard.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1843_3d_hw_trig.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Tracking.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Standard.cfg
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser
+[0.215s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include/
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include//DataHandlerClass.h
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include//mmWave.h
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_rospkg
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_rospkg
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.sh
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.dsv
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.bash
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.sh
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.zsh
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.dsv
+[0.216s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.dsv
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/packages/ti_mmwave_rospkg
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig.cmake
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig-version.cmake
+[0.216s] -- Up-to-date: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.xml
+[0.223s] Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg

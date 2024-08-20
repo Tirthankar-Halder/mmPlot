@@ -1,0 +1,11 @@
+{
+  "package_name": "ti_mmwave_rospkg_msgs",
+  "non_idl_tuples": [
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarScan.msg",
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarOccupancy.msg",
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarTrackArray.msg",
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarTrackContents.msg",
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:msg/RadarPointTrackID.msg",
+    "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg_msgs:srv/MmwaveCli.srv"
+  ]
+}

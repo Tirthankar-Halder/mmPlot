@@ -1,0 +1,276 @@
+[0.006s] Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake /home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg -DCMAKE_INSTALL_PREFIX=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.143s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.203s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.330s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.361s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.420s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.469s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.488s] -- Found FastRTPS: /opt/ros/humble/include
+[0.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.556s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.556s] -- Found Threads: TRUE
+[0.598s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.623s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.653s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.672s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.682s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.683s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.683s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.752s] -- Found ti_mmwave_rospkg_msgs: 1.0.0 (/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/share/ti_mmwave_rospkg_msgs/cmake)
+[0.763s] -- Found serial: 1.2.1 (/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/share/serial/cmake)
+[0.765s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.771s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.790s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")
+[0.798s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[0.798s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.798s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.798s]   cmake_policy command to set the policy and suppress this warning.
+[0.798s] 
+[0.798s]   CMake variable EIGEN_ROOT is set to:
+[0.798s] 
+[0.798s]     /usr/include/eigen3
+[0.798s] 
+[0.798s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.798s]   .cmake module might still use it.
+[0.798s] Call Stack (most recent call first):
+[0.798s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[0.798s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.798s]   CMakeLists.txt:55 (find_package)
+[0.798s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.798s] [0m
+[0.800s] -- Checking for module 'eigen3'
+[0.807s] --   Found eigen3, version 3.4.0
+[0.822s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[0.822s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.835s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization
+[0.836s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[0.836s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.836s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.836s]   cmake_policy command to set the policy and suppress this warning.
+[0.836s] 
+[0.836s]   CMake variable FLANN_ROOT is set to:
+[0.836s] 
+[0.836s]     /usr
+[0.836s] 
+[0.836s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.836s]   .cmake module might still use it.
+[0.836s] Call Stack (most recent call first):
+[0.836s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[0.836s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[0.836s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.836s]   CMakeLists.txt:55 (find_package)
+[0.836s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.836s] [0m
+[0.845s] -- Checking for module 'flann'
+[0.852s] --   Found flann, version 1.9.1
+[0.873s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[0.873s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.902s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+[0.907s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX
+[0.986s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1")
+[0.986s] -- Found MPI: TRUE (found version "3.1") found components: C
+[0.989s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0")
+[1.000s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[1.018s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[1.032s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0")
+[1.115s] -- Found X11: /usr/include
+[1.115s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.151s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.152s] -- Looking for gethostbyname
+[1.184s] -- Looking for gethostbyname - found
+[1.185s] -- Looking for connect
+[1.217s] -- Looking for connect - found
+[1.217s] -- Looking for remove
+[1.249s] -- Looking for remove - found
+[1.249s] -- Looking for shmat
+[1.283s] -- Looking for shmat - found
+[1.283s] -- Looking for IceConnectionNumber in ICE
+[1.316s] -- Looking for IceConnectionNumber in ICE - found
+[1.389s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7")
+[1.391s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so
+[1.393s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3")
+[1.395s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5")
+[1.427s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")
+[1.438s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")
+[1.443s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1")
+[1.448s] -- Found utf8cpp: /usr/include/utf8cpp
+[1.493s] -- Checking for module 'libusb-1.0'
+[1.499s] --   Found libusb-1.0, version 1.0.25
+[1.516s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[1.517s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0")
+[1.517s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.545s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33")
+[1.546s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.546s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.721s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.725s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.729s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.899s] -- Found Qhull version 8.0.2
+[2.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.237s] -- looking for PCL_COMMON
+[2.239s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[2.239s] -- looking for PCL_KDTREE
+[2.239s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[2.240s] -- looking for PCL_OCTREE
+[2.240s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[2.240s] -- looking for PCL_SEARCH
+[2.241s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[2.241s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.242s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[2.242s] -- looking for PCL_FILTERS
+[2.243s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[2.243s] -- looking for PCL_2D
+[2.243s] -- Found PCL_2D: /usr/include/pcl-1.12
+[2.243s] -- looking for PCL_GEOMETRY
+[2.243s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[2.243s] -- looking for PCL_IO
+[2.244s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[2.244s] -- looking for PCL_FEATURES
+[2.245s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[2.245s] -- looking for PCL_ML
+[2.246s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[2.246s] -- looking for PCL_SEGMENTATION
+[2.246s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[2.247s] -- looking for PCL_VISUALIZATION
+[2.247s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[2.248s] -- looking for PCL_SURFACE
+[2.248s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[2.248s] -- looking for PCL_REGISTRATION
+[2.249s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[2.249s] -- looking for PCL_KEYPOINTS
+[2.250s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[2.250s] -- looking for PCL_TRACKING
+[2.251s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[2.251s] -- looking for PCL_RECOGNITION
+[2.252s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[2.252s] -- looking for PCL_STEREO
+[2.253s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[2.253s] -- looking for PCL_APPS
+[2.254s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[2.254s] -- looking for PCL_IN_HAND_SCANNER
+[2.255s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[2.255s] -- looking for PCL_MODELER
+[2.255s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[2.255s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.255s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[2.256s] -- looking for PCL_OUTOFCORE
+[2.256s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[2.256s] -- looking for PCL_PEOPLE
+[2.257s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[2.258s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.7.5")
+[2.259s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.333s] -- Configuring done (2.3s)
+[2.364s] -- Generating done (0.0s)
+[2.366s] -- Build files have been written to: /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg
+[2.383s] Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake /home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg -DCMAKE_INSTALL_PREFIX=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg
+[2.384s] Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg -- -j16 -l16
+[2.439s] [  8%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/ParameterParser.cpp.o[0m
+[2.439s] [ 16%] [32mBuilding CXX object CMakeFiles/ConfigParameterServer.dir/src/ConfigParameterServer.cpp.o[0m
+[4.112s] [ 25%] [32m[1mLinking CXX executable ConfigParameterServer[0m
+[4.195s] [ 25%] Built target ConfigParameterServer
+[5.208s] [ 33%] [32m[1mLinking CXX shared library libmmwave.so[0m
+[5.314s] [ 33%] Built target mmwave
+[5.320s] [ 41%] [32mBuilding CXX object CMakeFiles/mmWaveCommSrv.dir/src/mmWaveCommSrv.cpp.o[0m
+[5.320s] [ 50%] [32mBuilding CXX object CMakeFiles/mmWaveQuickConfig.dir/src/mmWaveQuickConfig.cpp.o[0m
+[5.320s] [ 58%] [32mBuilding CXX object CMakeFiles/ParameterParser.dir/src/ParameterParser.cpp.o[0m
+[5.320s] [ 66%] [32mBuilding CXX object CMakeFiles/DataHandlerClass.dir/src/DataHandlerClass.cpp.o[0m
+[8.868s] [ 75%] [32m[1mLinking CXX executable mmWaveCommSrv[0m
+[8.975s] [ 75%] Built target mmWaveCommSrv
+[9.661s] [ 83%] [32m[1mLinking CXX executable ParameterParser[0m
+[9.785s] [ 83%] Built target ParameterParser
+[10.081s] [ 91%] [32m[1mLinking CXX executable mmWaveQuickConfig[0m
+[10.210s] [ 91%] Built target mmWaveQuickConfig
+[13.151s] [100%] [32m[1mLinking CXX executable DataHandlerClass[0m
+[13.320s] [100%] Built target DataHandlerClass
+[13.330s] Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --build /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg -- -j16 -l16
+[13.399s] Invoking command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg
+[13.443s] -- Install configuration: ""
+[13.443s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.sh
+[13.443s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/library_path.dsv
+[13.443s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so
+[13.444s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/libmmwave.so" to ""
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer
+[13.444s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ConfigParameterServer" to ""
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/IWR6843.py
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Occupancy.py
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Standard.py
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Standard.py
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Occupancy.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/test_launch.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Standard.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Tracking.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Uncompressed.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupancy.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6843ISK_Occupany.cpython-310.pyc
+[13.444s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/__pycache__/6432_Standard_Compressed.cpython-310.pyc
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843ISK_Tracking.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6843AOP_Tracking.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1843_Standard.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/6432_Standard.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1443_Standard.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/1642_Standard.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz_launch.py
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/launch/rviz.rviz
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/config/global_params.yaml
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Tracking.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1443_Standard.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6432_Standard_Uncompressed.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1843_Standard.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Occupancy.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1642_Standard.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Standard.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/1843_3d_hw_trig.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843AOP_Tracking.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cfg/6843ISK_Standard.cfg
+[13.445s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv
+[13.446s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveCommSrv" to ""
+[13.446s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig
+[13.446s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/mmWaveQuickConfig" to ""
+[13.446s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser
+[13.447s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/ParameterParser" to ""
+[13.447s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass
+[13.448s] -- Set non-toolchain portion of runtime path of "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib/ti_mmwave_rospkg/DataHandlerClass" to ""
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include/
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include//DataHandlerClass.h
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include//mmWave.h
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_rospkg
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_rospkg
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.sh
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/ament_prefix_path.dsv
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.sh
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/environment/path.dsv
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.bash
+[13.448s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.sh
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.zsh
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/local_setup.dsv
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.dsv
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ament_index/resource_index/packages/ti_mmwave_rospkg
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ament_cmake_export_libraries-extras.cmake
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig.cmake
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/cmake/ti_mmwave_rospkgConfig-version.cmake
+[13.449s] -- Installing: /home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/share/ti_mmwave_rospkg/package.xml
+[13.457s] Invoked command in '/home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg' returned '0': CMAKE_PREFIX_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/lib:/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /home/tirthapc/.local/bin/cmake --install /home/tirthapc/mmwave_ti_ros/ros2_driver/build/ti_mmwave_rospkg

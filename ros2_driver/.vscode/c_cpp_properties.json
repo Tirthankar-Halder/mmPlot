@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg/include/**",
+        "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/ti_mmwave_rospkg_msgs/include/**",
+        "/home/tirthapc/mmwave_ti_ros/ros2_driver/install/serial/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/serial-ros2-master/include/**",
+        "/home/tirthapc/mmwave_ti_ros/ros2_driver/src/ti_mmwave_rospkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
